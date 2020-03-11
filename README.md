@@ -1,3 +1,7 @@
+Duplicate of  https://github.com/1217950746/Arthas-WPFUI   
+
+WPF 控件库，支持 .Net Core 3 + & .Net 4.6.2 +
+
 # Arthas
 
 > **已经在 develop 分支恢复开发**，希望此项目能让大家感受到 WPF MVVM 惊人的开发效率与漂亮的界面！
