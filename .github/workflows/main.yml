@@ -15,7 +15,7 @@ jobs:
           nuget-version: latest
      
 
-      - name: Nuget Restore ATM Simulator
+      - name: Nuget Restore 
         run: nuget restore "$Env:GITHUB_WORKSPACE\Arthas.sln"
         
 
@@ -27,4 +27,4 @@ jobs:
       - uses: actions/upload-artifact@v1
         with:
           name: artifact
-          path: ./Arthas/bin/Debug
+          path: ./Arthas.Demo/bin/Debug
